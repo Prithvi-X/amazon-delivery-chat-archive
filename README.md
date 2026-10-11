@@ -37,3 +37,11 @@ A static, searchable chat interface for a saved Amazon customer-service conversa
 This repository is intended for public hosting. Anyone can view or download every committed file, including the original ZIP. Before pushing, inspect the source archive for order IDs, email addresses, phone numbers, addresses, payment details, or other information you do not intend to publish. The chat also contains personal statements about health. If anything should remain private, redact it from the public copy first and keep the untouched original privately for your records.
 
 The readable page includes a context note supplied by the uploader: the Amazon account belongs to the uploader's sister, and “Ravindra” is the uploader's father's name. The original chat export remains unchanged in the source ZIP.
+
+
+## PIN-code availability evidence
+
+- `pincode-test-dataset.tar.gz`: all files extracted from the uploaded `Kanadukathan_summary.zip`, repackaged for web distribution.
+- `pincode-evidence-notes.md`: scope, counts, interpretation and limitations.
+
+The saved run contains 103 checks, not a complete record of the broader approximately 2,000-PIN-code attempt. It reports 68 `NOT_DELIVERABLE`, 15 `CAPTCHA`, 19 `ERROR`, one `UNKNOWN`, and zero `DELIVERABLE`. CAPTCHA, errors and unknown results are inconclusive. The dataset is for ASIN `B08K4L9MHM` (LG 27UL550), not the separate ASIN `B07PGL2WVS` (LG 27UL500-W) referenced in the article draft.
